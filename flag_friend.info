@@ -1,0 +1,27 @@
+; $Id: flag_friend.info,v 1.2.4.2.2.1 2010/03/15 22:55:27 crea Exp $
+name = Flag friend
+description = Use Flag to set up arbitrary user relationships that require confirmations from both parties.
+dependencies[] = flag
+core = 7.x
+package = Flags
+
+; core
+files[] = flag_friend.install
+files[] = flag_friend.module
+
+; includes
+files[] = includes/flag_friend.forms.inc
+files[] = includes/flag_friend.views.inc
+
+; plugins
+files[] = plugins/content_types/flag_friend_count.inc
+files[] = plugins/content_types/flag_friend_links.inc
+
+files[] = plugins/access/flag_friend_is_friend.inc
+
+; contrib
+files[] = contrib/flag_friend.activity.inc
+files[] = contrib/flag_friend.author_pane.inc
+files[] = contrib/flag_friend.popups.inc
+files[] = contrib/flag_friend.token.inc
+files[] = contrib/flag_friend.trigger.inc

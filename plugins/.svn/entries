@@ -1,0 +1,37 @@
+8
+
+dir
+0
+https://subversion.assembla.com/svn/nwb/trunk/sites/all/modules/contributions/modules/flag_friend/plugins
+https://subversion.assembla.com/svn/nwb
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+access
+dir
+
+
+
+add
+
+CVS
+dir
+
+
+
+add
+
+content_types
+dir
+
+
+
+add
+
